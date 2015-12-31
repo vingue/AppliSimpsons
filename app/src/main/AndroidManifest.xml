@@ -1,21 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.appli.vincent_nesrine.thesimpsons" >
+    package="com.appli.vincent_nesrine.thesimpsons">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme"
+        android:largeHeap="true">
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".GoodiesActivity"
+            android:label="@string/title_activity_goodies"
+            android:theme="@style/AppTheme" />
+
+        <service
+            android:name=".GetGoodiesServices"
+            android:exported="false" />
+
+        <activity
+            android:name=".PersoActivity"
+            android:label="@string/title_activity_perso"
+            android:theme="@style/AppTheme" />
+
+        <service
+            android:name=".GetPersoServices"
+            android:exported="false" />
+
+        <activity
+            android:name=".SavoirActivity"
+            android:label="@string/title_activity_savoir"
+            android:theme="@style/AppTheme" />
+
+        <service
+            android:name=".GetSavoirServices"
+            android:exported="false" />
+
+        <activity
+            android:name=".EpisodeActivity"
+            android:label="@string/title_activity_episode"
+            android:theme="@style/AppTheme" />
+
+        <service
+            android:name=".GetEpisodeServices"
+            android:exported="false" />
+
+        <activity
+            android:name=".QuoteActivity"
+            android:label="@string/title_activity_quote"
+            android:theme="@style/AppTheme" />
+
+        <service
+            android:name=".GetQuoteServices"
+            android:exported="false" />
+
+        <activity
+            android:name=".SerieActivity"
+            android:label="@string/title_activity_serie"
+            android:theme="@style/AppTheme"/>
     </application>
 
 </manifest>

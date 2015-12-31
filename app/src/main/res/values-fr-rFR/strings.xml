@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">The Simpsons</string>
+
+    <string name="hello_world"></string>
+    <string name="action_settings">A propos</string>
+
+    <string name="welcome">Bienvenue à Springfield!!!</string>
+    <string name="serie">Serie</string>
+    <string name="character">Personnages</string>
+    <string name="seasons">Episodes</string>
+    <string name="quotes">Citations</string>
+    <string name="didknow">Le saviez-vous?</string>
+    <string name="goodies">Goodies!</string>
+    <string name="title_activity_goodies">The Simpsons/Goodies</string>
+    <string name="title_activity_perso">The Simpsons/Personnages</string>
+    <string name="title_activity_savoir">The Simpsons/Saviez-vous?</string>
+    <string name="title_activity_episode">The Simpsons/Episodes</string>
+    <string name="title_activity_quote">The Simpsons/Citations</string>
+    <string name="title_activity_serie">The Simpsons/Série</string>
+    <string name="desciption1">Elle fut créer par Matt Groening (également créateur de Futurama), l\'aventure Simpson commença en 1985 lorsqu\'il fut contacté par la Fox pour un projet de série d\'animation indéfini.</string>
+    <string name="desciption2">Elle met en scène la famille Simpson, stéréotype de la famille américaine de classe moyenne que l\'on suit durant leur quotidien mouvementé dans leur ville fictive de Springfield</string>
+    <string name="desciption_slogan">La série la plus degentée des Etats Unis depuis 1989!</string>
+    <string name="desciption3">27 saisons et plus de 500 épisodes un record pour une série en primetime. Diffusée depuis ses débuts sur la Fox, en France la série est diffusée sur Canal+ puis un bref passage dans l\'émission Minikeums sur France 3 en 1994 et enfin la diffusion actuelle sur W9.\n\nLa série compte énormement de personnages en plus des nombreux guests ayant participé, des citations cultes, des produits dérivées et des millions de fans à travers le monde.\n\nDevant l\'immense succès des Simpson la série a eu le droit à une adaptation en film proposant une histoire originale écrite par Matt Groening!</string>
+</resources>

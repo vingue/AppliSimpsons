@@ -5,4 +5,54 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal|bold</item>
+
+    </style>
+
+    <style name="Italic" parent="@android:style/TextAppearance">
+        <item name="android:textSize">13sp</item>
+
+
+        <item name="android:textStyle">normal|italic</item>
+
+    </style>
+
+    <style name="Titre" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FF000000</item>
+
+        <item name="android:textSize">17sp</item>
+
+
+    </style>
+
+    <style name="Source" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:textSize">13sp</item>
+
+
+
+
+    </style>
+
+    <style name="Description" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:textSize">16sp</item>
+
+
+
+
+    </style>
+
 </resources>
+

@@ -1,11 +1,247 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="@drawable/cloud">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/rLayout1"
+                >
+
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:background="@drawable/serie2"
+                    android:id="@+id/imageButton"
+                    android:onClick="serieAffiche"
+                    />
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/serie"
+                    android:id="@+id/button_activity"
+                    android:onClick="serieAffiche"
+                    android:layout_below="@+id/imageButton"
+                    android:layout_marginTop="-10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginLeft="-10dp"
+                    android:layout_marginRight="-10dp"
+                    android:background="#FFD700"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="20dp"
+                android:id="@+id/rLayout2"
+                android:layout_below="@+id/rLayout1"
+                >
+
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:background="@drawable/perso"
+                    android:onClick="persoList"
+                    android:id="@+id/persoButton"
+                    />
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/character"
+                    android:onClick="persoList"
+                    android:id="@+id/perso_activity"
+                    android:layout_below="@+id/persoButton"
+                    android:layout_marginTop="-10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginLeft="-10dp"
+                    android:layout_marginRight="-10dp"
+                    android:background="#FFD700"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="20dp"
+                android:id="@+id/rLayout3"
+                android:layout_below="@+id/rLayout2"
+                >
+
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:background="@drawable/episode"
+                    android:id="@+id/saisonButton"
+                    android:onClick="episodeList"
+                    />
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/seasons"
+                    android:onClick="episodeList"
+                    android:id="@+id/saison_activity"
+                    android:layout_below="@+id/saisonButton"
+                    android:layout_marginTop="-10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginLeft="-10dp"
+                    android:layout_marginRight="-10dp"
+                    android:background="#FFD700"/>
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="20dp"
+                android:id="@+id/rLayout4"
+                android:layout_below="@+id/rLayout3"
+                >
+
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:background="@drawable/quote"
+                    android:id="@+id/citationButton"
+                    android:onClick="quoteList"
+                    />
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quotes"
+                    android:id="@+id/citation_activity"
+                    android:onClick="quoteList"
+                    android:layout_below="@+id/citationButton"
+                    android:layout_marginTop="-10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginLeft="-10dp"
+                    android:layout_marginRight="-10dp"
+                    android:background="#FFD700"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="20dp"
+                android:id="@+id/rLayout5"
+                android:layout_below="@+id/rLayout4"
+                >
+
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:background="@drawable/anec"
+                    android:onClick="savoirList"
+                    android:id="@+id/anecButton"
+                    />
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/didknow"
+                    android:id="@+id/anec_activity"
+                    android:onClick="savoirList"
+                    android:layout_below="@+id/anecButton"
+                    android:layout_marginTop="-10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginLeft="-10dp"
+                    android:layout_marginRight="-10dp"
+                    android:background="#FFD700"/>
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="20dp"
+                android:id="@+id/rLayout6"
+                android:layout_below="@+id/rLayout5"
+                >
+
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:background="@drawable/good"
+                    android:id="@+id/goodButton"
+                    android:onClick="goodiesList"
+                    />
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/goodies"
+                    android:id="@+id/goodies_activity"
+                    android:onClick="goodiesList"
+                    android:layout_below="@+id/goodButton"
+                    android:layout_marginTop="-10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginLeft="-10dp"
+                    android:layout_marginRight="-10dp"
+                    android:background="#FFD700"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
 
 </RelativeLayout>

@@ -1,6 +1,26 @@
 <resources>
     <string name="app_name">The Simpsons</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="hello_world"></string>
+
+    <string name="action_settings">About</string>
+
+    <string name="welcome">Welcome to Springfield!!!</string>
+    <string name="serie">Serie</string>
+    <string name="character">Characters</string>
+    <string name="seasons">Episodes</string>
+    <string name="quotes">Quotes</string>
+    <string name="didknow">Did you know?</string>
+    <string name="goodies">Goodies!</string>
+    <string name="title_activity_goodies">The Simpsons/Goodies</string>
+    <string name="title_activity_perso">The Simpsons/Characters</string>
+    <string name="title_activity_savoir">The Simpsons/Did you know?</string>
+    <string name="title_activity_episode">The Simpsons/Episodes</string>
+    <string name="title_activity_quote">The Simpsons/Quotes</string>
+    <string name="title_activity_serie">The Simpsons/Serie</string>
+    <string name="desciption1">Created by Matt Groening (also Futurama\'s creator), story of the Simpsons started in 1985 when Groening was contacted by Fox about an animated sitcom.</string>
+    <string name="desciption2">This is about the Simpson family, depiction of the middle class American which we follow their lifestyle in the city of Springfield</string>
+    <string name="desciption_slogan">The craziest sitcom in America since 1989</string>
+    <string name="desciption3">27 seasons and more than 500 episodes. Since the beginning The Simpsons are released on the Fox network.\n\nThe serie has a lot of characters and guests, famous quotes, goodies and millions of fans worldwide.\n\nAfter many years of success Fox decided to create The Simpsons Movie with a screenplay from Matt Groening!</string>
+
 </resources>
